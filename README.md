@@ -11,14 +11,14 @@ In prime auto lending, predictive behavior is black and white. Most customers ha
 
 In sub prime auto lending, predictive behavior is gray. There is an art to predicting risk and whether a customer will pay back their loan. Before we can do that there has to be consistency in how we decision applications. The point of part 1 of this project is to verify that we are making the same decisions for similar applications so we can build on that foundation.
 
-# Part 1: 1_application_approval_risk_discovery.ipynb
+# Part 1: [1_application_approval_risk_discovery.ipynb](https://github.com/losflo/auto-loan-sub-prime-predictive-decisioning/blob/main/1_preliminary_discovery.ipynb)
 In this part we are trying to predict if an application will be approved or denied. If there is a mismatch in the decisions, we want to know about it.
 For this reason, we will use recall as our metric. Per the definition of recall, we want to maximize the true positives at the expense of the false positives. This is fine for now since we will be manually reviewing the mismatches, but once we are confident in the model we will want to switch to precision as this will help us reduce the number of false positives. Therefore reducing the number of mismatches.
 
 # Part 1: Findings
 KNN performed the best with a recall score of 99.9%.
 
-# Part 2: 2_write_off_risk_discovery.ipynb
+# Part 2: [2_write_off_risk_discovery.ipynb](https://github.com/losflo/auto-loan-sub-prime-predictive-decisioning/blob/main/2_write_off_risk_discovery.ipynb)
 In this part we are trying to predict if a loan will be written off. I'm taking into consideration the structure of the loan as well as the customer's profile.
 
 # Part 2: Findings
